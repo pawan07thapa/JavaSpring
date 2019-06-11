@@ -14,26 +14,26 @@
 		  <property name = "ename" value = "Pawan"/>
 		  
 					<!-- 	 CONSTRUCTOR INJECTION -->
-<!-- 		  <constructor-arg ref="adrs"></constructor-arg> -->
+		<!--   <constructor-arg ref="adrs"></constructor-arg> -->
 
-					<!-- 	SETTER INJECTION -->
+					<!--  	SETTER INJECTION      -->
 					<property name="eadd" ref="adrs"></property>
 		  
-   		</bean> 
+    </bean> 
     
     <bean id = "adrs" class = "com.pawan07.FinalSpringDemo.Address">
        	  <property name="city" value="Pokhara"/>  
 		  <property name = "state" value = "Gandaki"/>
 		  <property name="zipcode" value="00000"/>
 		 
-   		</bean>
+   	</bean>
     
     
-    <!--Constructor Injection - Setting of properties using Constructor  
-    	<bean id="emp" class="com.pawan07.FinalSpringDemo.Employee">
-    		<constructor-arg  value="pawan"></constructor-arg>
-    	</bean>
-    	-->
+    <!--Constructor Injection - Setting of properties using Constructor  -->
+		<!--     	<bean id="emp" class="com.pawan07.FinalSpringDemo.Employee"> -->
+		<!--     		<constructor-arg  value="pawan"></constructor-arg> -->
+		<!--     	</bean> -->
+    	
     
   <!-- For annotation based configuration -->  
 <!-- <context:component-scan base-package="com.pawan07.FinalSpringDemo"></context:component-scan> -->
